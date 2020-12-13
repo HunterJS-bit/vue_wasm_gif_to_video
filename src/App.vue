@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <VideoMaker />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VideoMaker from './components/VideoMaker.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    VideoMaker
   }
 }
 </script>
@@ -24,5 +23,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #e5ebfb;
 }
 </style>

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700');
+
+
+body {
+    font-family: 'Judson', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.upload-box {
+    background-color: #ffffff;
+    border: 3px dashed #a7abff;
+    border-radius: 1em;
+    padding: 4em 6.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.upload-icon {
+    width: 90px;
+    height: 90px;
+}
+.upload-form {
+    display: flex;
+    flex-direction: column;
+}
+.upload-form, preview-form {
+    display: flex;
+}
+
+svg {
+    fill: #6a6fd3;
+}

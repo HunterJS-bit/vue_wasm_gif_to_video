@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 250px;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .upload-icon {
@@ -33,6 +37,26 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
 }
 
+
 svg {
     fill: #6a6fd3;
+}
+.convert-btn:disabled,
+.convert-btn[disabled]{
+    background: #dddddd;
+    cursor: not-allowed;
+    color: #fff;
+    border-color: #dddddd;
+    pointer-events: none;
+}
+
+
+video {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.loader {
+    margin-top: 50px;
 }

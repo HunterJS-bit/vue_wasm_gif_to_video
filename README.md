@@ -15,18 +15,20 @@
 
 ### 🏠 [Homepage](https://github.com/HunterJS-bit/vue_wasm_gif_to_video#readme)
 
-### ✨ [Demo](https://github.com/HunterJS-bit/vue_wasm_gif_to_video)
+### ✨ [Demo](https://hunterjs-bit.github.io/vue_wasm_gif_to_video)
 
 
 ## Preview 
 
 ![Demo Preview](/demo/ConverterDemo.gif)
 
-## Usage
+## Local Usage
 
 - Clone Repo
 
 - Run command ``` npm run serve ```
+
+### Also see it in action: [Demo Preview ](https://hunterjs-bit.github.io/vue_wasm_gif_to_video/)
 
 ## Author
 

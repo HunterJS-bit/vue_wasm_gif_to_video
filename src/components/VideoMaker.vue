@@ -81,6 +81,7 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
+  flex-wrap: wrap;
   padding: 20px 50px;
   background: white;
   box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3),

@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <h1> Gif to Video Converter </h1>
+    <h1>Gif to Video Converter</h1>
     <VideoMaker />
   </div>
 </template>
 
 <script>
-import VideoMaker from './components/VideoMaker.vue'
+import VideoMaker from "./components/VideoMaker.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     VideoMaker
   }
-}
+};
 </script>
 
 <style>
@@ -25,14 +25,5 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-h1 {
-  color: #3f51b5;
-  font-weight: 300;
-  padding: 20px 20px;
-}
-body {
-  background-color: #e5ebfb;
 }
 </style>

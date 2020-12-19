@@ -1,12 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Judson:100,400,700');
 
 
 body {
     font-family: 'Judson', serif;
+    background-color: #e5ebfb;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Archivo Black', sans-serif;
+}
+
+h1 {
+    color: #3f51b5;
+    font-weight: 300;
+    padding: 20px 20px;
+}
+
+
+.mt-10 {
+    margin-top: 20px;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+}
+.upload-form, preview-form {
+    display: flex;
+}
+
+.preview-form {
+    width: 380px;
+    padding: 10px 30px;
+    height: 300px;
 }
 
 .upload-box {
@@ -25,22 +51,45 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-.upload-icon {
+.upload-box .upload-icon {
     width: 90px;
     height: 90px;
 }
-.upload-form {
-    display: flex;
-    flex-direction: column;
-}
-.upload-form, preview-form {
-    display: flex;
-}
 
 
-svg {
-    fill: #6a6fd3;
+.video-wrapper svg {
+    fill: #d0d0d0;
 }
+
+.upload-icon svg {
+    fill: #434bdf;
+}
+
+.convert-btn {
+    cursor: pointer;
+    outline: 0;
+    text-align: center;
+    background: #434bdf;
+    position: relative;
+    font-size: 14px;
+    font-size: 0.875rem;
+    border: 1px solid #434bdf;
+    font-weight: 600;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 1;
+    padding: 12px 30px;
+    color: #fff;
+    transition: all 0.3s;
+}
+  
+.convert-btn:hover {
+    background-color: #fff;
+    color: #434bdf;
+}
+
 .convert-btn:disabled,
 .convert-btn[disabled]{
     background: #dddddd;
@@ -51,12 +100,3 @@ svg {
 }
 
 
-video {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-}
-
-.loader {
-    margin-top: 50px;
-}
